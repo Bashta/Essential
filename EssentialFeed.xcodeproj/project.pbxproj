@@ -57,7 +57,6 @@
 		265EC8D126C3476F00E44EE0 = {
 			isa = PBXGroup;
 			children = (
-				265EC8F526C3478A00E44EE0 /* FeedItem.swift */,
 				265EC8DD26C3476F00E44EE0 /* EssentialFeed */,
 				265EC8E826C3476F00E44EE0 /* EssentialFeedTests */,
 				265EC8DC26C3476F00E44EE0 /* Products */,
@@ -78,6 +77,7 @@
 			children = (
 				265EC8DE26C3476F00E44EE0 /* EssentialFeed.h */,
 				265EC8DF26C3476F00E44EE0 /* Info.plist */,
+				265EC8F526C3478A00E44EE0 /* FeedItem.swift */,
 				265EC8F726C3489E00E44EE0 /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
