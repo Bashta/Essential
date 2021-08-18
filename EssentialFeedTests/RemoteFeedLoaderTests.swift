@@ -54,14 +54,14 @@ class RemoteFeedLoaderTests: XCTestCase {
                 client.complete(withStatusCode: code, at: index)
             }
         }
+    }
+    
+    func test_load_deliversError200HttpResponseInvalidJSon() {
+        let (sut, client) = makeSUT()
         
-        func test_load_deliversError200HttpResponseInvalidJSon() {
-            let (sut, client) = makeSUT()
-            
-            expect(sut,toCompleteWithError: .invalidData) {
-                let invalidJSON = Data("invalid json".utf8)
-                client.complete(withStatusCode: 200, data: invalidJSON)
-            }
+        expect(sut,toCompleteWithError: .invalidData) {
+            let invalidJSON = Data("invalid json".utf8)
+            client.complete(withStatusCode: 200, data: invalidJSON)
         }
     }
     
