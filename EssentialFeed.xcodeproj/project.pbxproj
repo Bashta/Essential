@@ -78,6 +78,15 @@
 			path = "Feed API";
 			sourceTree = "<group>";
 		};
+		26104FD726CFD88900C82586 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				265EC8DE26C3476F00E44EE0 /* EssentialFeed.h */,
+				265EC8DF26C3476F00E44EE0 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
 		265EC8D126C3476F00E44EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +108,9 @@
 		265EC8DD26C3476F00E44EE0 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				265EC8DE26C3476F00E44EE0 /* EssentialFeed.h */,
-				265EC8DF26C3476F00E44EE0 /* Info.plist */,
-				26104FCF26CCF97D00C82586 /* Feed API */,
+				26104FD726CFD88900C82586 /* Supporting */,
 				265EC8F926C349E400E44EE0 /* FeedFeature */,
+				26104FCF26CCF97D00C82586 /* Feed API */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -393,7 +401,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EssentialFeed/Info.plist;
+				INFOPLIST_FILE = EssentialFeed/Supporting/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,7 +427,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EssentialFeed/Info.plist;
+				INFOPLIST_FILE = EssentialFeed/Supporting/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
