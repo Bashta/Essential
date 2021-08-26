@@ -64,7 +64,7 @@ class URLSessionHTTPClientTests: XCTestCase {
         
         makeSUT().get(from: anyURL()) { result in
             switch result {
-            case let .failure(_):
+            case .failure:
                 break
             default:
                 XCTFail("Expected failure, got \(result) instead")
