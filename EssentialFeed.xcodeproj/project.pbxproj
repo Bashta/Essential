@@ -23,6 +23,7 @@
 		26CDB07926D91F060020574B /* XCTestCase+MemoryLeakTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB06626D7FF4B0020574B /* XCTestCase+MemoryLeakTracker.swift */; };
 		26CDB07C26D942440020574B /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB07B26D942440020574B /* CacheFeedUseCaseTests.swift */; };
 		26CDB07F26D9A7220020574B /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB07E26D9A7220020574B /* LocalFeedLoader.swift */; };
+		26CDB08126D9A8310020574B /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB08026D9A8310020574B /* FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		26CDB07226D90BB40020574B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26CDB07B26D942440020574B /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		26CDB07E26D9A7220020574B /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		26CDB08026D9A8310020574B /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				26CDB07E26D9A7220020574B /* LocalFeedLoader.swift */,
+				26CDB08026D9A8310020574B /* FeedStore.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				26104FD526CEAD8800C82586 /* FeedItemsMapper.swift in Sources */,
 				265EC8F626C3478A00E44EE0 /* FeedItem.swift in Sources */,
 				26104FD126CCF99E00C82586 /* RemoteFeedLoader.swift in Sources */,
+				26CDB08126D9A8310020574B /* FeedStore.swift in Sources */,
 				26CDB07F26D9A7220020574B /* LocalFeedLoader.swift in Sources */,
 				26104FD326CEAD4200C82586 /* HTTPClient.swift in Sources */,
 				265EC8F826C3489E00E44EE0 /* FeedLoader.swift in Sources */,
