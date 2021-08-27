@@ -41,7 +41,7 @@ protocol FeedStore {
     func insert(_ items: [FeedItem], timestamp: Date, completion: @escaping InsertionCompletion)
 }
 
-class CacheFeedUseCase: XCTestCase {
+class CacheFeedUseCaseTests: XCTestCase {
     
     func test_init_doesNotMessageStoreeUponCreation() {
         let (_, store) = makeSUT()
