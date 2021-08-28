@@ -84,7 +84,6 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
         store.completeRetreival(with: anyError())
         
         XCTAssertEqual(store.receivedMessages, [.retrieve, .deleteCachedFeed])
-
     }
     
     func test_load_doesNotDeleteCacheOnEmptyCache() {
@@ -94,7 +93,6 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
         store.completeRetreivalWithEmptyCache()
         
         XCTAssertEqual(store.receivedMessages, [.retrieve])
-
     }
     
     // Mark: - Helpers
