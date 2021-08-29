@@ -10,7 +10,7 @@ import EssentialFeed
 
 class CacheFeedUseCaseTests: XCTestCase {
     
-    func test_init_doesNotMessageStoreeUponCreation() {
+    func test_init_doesNotMessageStoreUponCreation() {
         let (_, store) = makeSUT()
         
         XCTAssertEqual(store.receivedMessages, [])
@@ -124,24 +124,5 @@ class CacheFeedUseCaseTests: XCTestCase {
         
         XCTAssertEqual(receivedError as NSError?, expectedError, file: file, line: line)
         
-    }
-    
-    private func uniqueItem() -> FeedImage {
-        return FeedImage(
-            id: UUID(), description: "any", location: "any", url: anyURL())
-    }
-    
-    private func uniqueImageFeed() -> (models: [FeedImage], local: [LocalFeedImage]) {
-        let models = [uniqueItem(), uniqueItem()]
-        let local = models.map { LocalFeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url) }
-        return (models, local)
-    }
-    
-    private func anyURL() -> URL {
-        return URL(string: "httpS://a-url.com")!
-    }
-    
-    private func anyError() -> NSError {
-        return NSError(domain: "any error", code: 200)
     }
 }
