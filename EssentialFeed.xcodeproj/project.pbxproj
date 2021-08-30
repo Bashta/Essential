@@ -36,6 +36,7 @@
 		26CDB09626DD64490020574B /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09526DD64490020574B /* CodableFeedStore.swift */; };
 		26CDB09826DD99270020574B /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09726DD99270020574B /* FeedStoreSpecs.swift */; };
 		26CDB09A26DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09926DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift */; };
+		26CDB09C26DDA1990020574B /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09B26DDA1990020574B /* CoreDataFeedStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		26CDB09526DD64490020574B /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 		26CDB09726DD99270020574B /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 		26CDB09926DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		26CDB09B26DDA1990020574B /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				26CDB09326DB2B030020574B /* CodableFeedStoreTests.swift */,
 				26CDB09726DD99270020574B /* FeedStoreSpecs.swift */,
 				26CDB09926DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift */,
+				26CDB09B26DDA1990020574B /* CoreDataFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26CDB09426DB2B030020574B /* CodableFeedStoreTests.swift in Sources */,
+				26CDB09C26DDA1990020574B /* CoreDataFeedStoreTests.swift in Sources */,
 				26CDB08E26DB0D2B0020574B /* FeedCacheTestHelpers.swift in Sources */,
 				265EC8FB26C34BE800E44EE0 /* LoadFeedFromRemoteuseCaseTests.swift in Sources */,
 				26CDB06726D7FF4B0020574B /* XCTestCase+MemoryLeakTracker.swift in Sources */,
