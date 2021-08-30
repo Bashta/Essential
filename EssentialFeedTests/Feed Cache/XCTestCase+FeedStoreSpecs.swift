@@ -149,7 +149,7 @@ extension FeedStoreSpecs where Self: XCTestCase {
     func expect(_ sut: FeedStore, toRetrieve expectedResult: RetrieveCachedFeedResult, file: StaticString = #file, line: UInt = #line) {
         let exp = expectation(description: "Wait for cache retrieval")
 
-        sut.retreive { retrievedResult in
+        sut.retrieve { retrievedResult in
             switch (expectedResult, retrievedResult) {
             case (.empty, .empty),
                  (.failure, .failure):
