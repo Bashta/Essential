@@ -20,7 +20,7 @@ extension LocalFeedLoader {
     public typealias LoadResult = LoadFeedResult
 
     public func save(_ feed: [FeedImage], completion: @escaping (SaveResult) -> Void) {
-        store.deleCachedFeed() { [weak self] error in
+        store.deleteCachedFeed() { [weak self] error in
             guard let self = self else { return }
 
             if let cacheDeletionError = error {
@@ -67,10 +67,10 @@ extension LocalFeedLoader {
             
             switch result {
             case .failure:
-                self.store.deleCachedFeed { _ in }
+                self.store.deleteCachedFeed { _ in }
             
             case let .found(_, timestamp) where !FeedCachePolicy.validate(timestamp, against: self.curentDate()):
-                self.store.deleCachedFeed { _ in }
+                self.store.deleteCachedFeed { _ in }
 
             case .empty, .found:
                 break
