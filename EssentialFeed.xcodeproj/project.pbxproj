@@ -180,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				26CDB09F26DDA93F0020574B /* CoreDataFeedStore.swift */,
-				2625D71126DDBF1900E53AD6 /* ManagedCache.swift */,
 				2625D70D26DDBD9700E53AD6 /* CoreDataHelpers.swift */,
+				2625D71126DDBF1900E53AD6 /* ManagedCache.swift */,
 				2625D70F26DDBE6A00E53AD6 /* ManagedFeedImage.swift */,
 				26CDB0A126DDAE120020574B /* FeedStore.xcdatamodeld */,
 			);
