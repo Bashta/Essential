@@ -37,6 +37,7 @@
 		26CDB09826DD99270020574B /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09726DD99270020574B /* FeedStoreSpecs.swift */; };
 		26CDB09A26DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09926DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift */; };
 		26CDB09C26DDA1990020574B /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09B26DDA1990020574B /* CoreDataFeedStoreTests.swift */; };
+		26CDB0A026DDA93F0020574B /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB09F26DDA93F0020574B /* CoreDataFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		26CDB09726DD99270020574B /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 		26CDB09926DD99F70020574B /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		26CDB09B26DDA1990020574B /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
+		26CDB09F26DDA93F0020574B /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 				26CDB08426D9B5DB0020574B /* LocalFeedImage.swift */,
 				26CDB09126DB1E060020574B /* FeedCachePolicy.swift */,
 				26CDB09526DD64490020574B /* CodableFeedStore.swift */,
+				26CDB09F26DDA93F0020574B /* CoreDataFeedStore.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				26104FD326CEAD4200C82586 /* HTTPClient.swift in Sources */,
 				265EC8F826C3489E00E44EE0 /* FeedLoader.swift in Sources */,
 				26CDB06926D873260020574B /* URLSessionHTTPClient.swift in Sources */,
+				26CDB0A026DDA93F0020574B /* CoreDataFeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
